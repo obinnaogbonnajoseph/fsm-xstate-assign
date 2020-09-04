@@ -1,0 +1,38 @@
+{
+    "name": "fsm-xstate-assign",
+    "version": "1.0.0",
+    "description": "A demo application to demonstrate use of xstate assign functions to create extended states ",
+    "main": "index.js",
+    "scripts": {
+        "start": "parcel src/**/*.html",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/obinnaogbonnajoseph/fsm-xstate-assign.git"
+    },
+    "keywords": [
+        "finite",
+        "state",
+        "machine'",
+        "extended",
+        "state",
+        "machine",
+        "xstate",
+        "assign"
+    ],
+    "author": "Obinna Ogbonna",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/obinnaogbonnajoseph/fsm-xstate-assign/issues"
+    },
+    "homepage": "https://github.com/obinnaogbonnajoseph/fsm-xstate-assign#readme",
+    "devDependencies": {
+        "concurrently": "^5.3.0",
+        "parcel-bundler": "^1.12.4",
+        "sass": "^1.26.10"
+    },
+    "dependencies": {
+        "xstate": "^4.13.0"
+    }
+}
